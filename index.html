@@ -140,6 +140,13 @@
   @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .status.hold{color:var(--yellow)}}
   .other{margin-top:18px;font-size:15px;color:var(--muted)}
   .other strong{color:var(--ink)}
+  .feature{display:flex;gap:18px;align-items:stretch;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--yellow);border-radius:14px;padding:20px;margin-bottom:18px;text-decoration:none;color:var(--ink);transition:transform .15s,border-color .15s}
+  .feature:hover{transform:translateY(-3px);border-color:var(--green)}
+  .feature .kind{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--warm)}
+  .feature h3{font-size:22px;margin:6px 0 4px}
+  .feature .subt{font-style:italic;color:var(--muted);margin:0 0 8px}
+  .feature p{margin:0 0 10px;font-size:15px}
+  .feature .go{color:var(--green);font-weight:600;font-size:14px}
 </style>
 </head>
 <body>
@@ -301,7 +308,16 @@
 
   <section id="writing">
     <h2>Writing</h2>
-    <p style="color:var(--muted);margin-top:-8px">I write on Medium to think through questions about business, sustainability, politics, and policy, plus the occasional short story.</p>
+    <p style="color:var(--muted);margin-top:-8px">I write to think through questions about business, sustainability, politics, and policy, plus the occasional short story.</p>
+    <a class="feature" href="Are_We_Really_Transitioning_Fisaniya_Rahmanisa.pdf" target="_blank" rel="noopener">
+      <div>
+        <span class="kind">Published · inBetween Magazine, Issue 01 · Nov 2026</span>
+        <h3>Are We Really Transitioning?</h3>
+        <p class="subt">Getting to know Renewable Energy Certificates: a solution or a shortcut?</p>
+        <p>What actually changes when a company buys renewable energy certificates? A look at RECs from the marketing, finance, and sustainability side. Published in a joint magazine by the Marketing, Sustainability, and Finance Clubs of MBA UGM.</p>
+        <span class="go">Read the article (PDF) →</span>
+      </div>
+    </a>
     <div class="grid">
       <a class="card" href="https://medium.com/@rahmanisanya" target="_blank" rel="noopener">
         <span class="icon">🌱</span><h3>Business &amp; Sustainability</h3>
